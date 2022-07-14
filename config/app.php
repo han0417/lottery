@@ -143,6 +143,11 @@ return [
         // 'store'  => 'redis',
     ],
 
+    'lottery' => [
+        'first_prize_percent'  => env('FIRST_PRIZE_PERCENT', 15.5),
+        'second_prize_percent' => env('SECOND_PRIZE_PERCENT', 20),
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers
